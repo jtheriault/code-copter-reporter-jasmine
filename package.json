@@ -1,0 +1,37 @@
+{
+  "name": "code-copter-reporter-jasmine",
+  "version": "1.0.0",
+  "description": "Reporter plugin for code-copter v2 which integrates its reporting into the Jasmine BDD framework",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rm -r coverage/ node_modules",
+    "test": "JASMINE_CONFIG_PATH=jasmine.json istanbul cover --handle-sigint jasmine",
+    "posttest": "istanbul check-coverage",
+    "watch:test": "nodemon -w src -x npm test"
+  },
+  "dependencies": {
+    "code-copter-sdk": "^1.0.0",
+    "jasmine": "^2.4.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "nodemon": "^1.9.1"
+  },
+  "author": "Joe Theriault <joseph@yankoismedia.com> (http://www.josephtheriault.com)",
+  "bugs": {
+    "url": "https://github.com/jtheriault/code-copter-reporter-jasmine/issues"
+  },
+  "homepage": "https://github.com/jtheriault/code-copter-reporter-jasmine#readme",
+  "license": "ISC",
+  "keywords": [
+    "code-copter",
+    "jasmine",
+    "style",
+    "guide",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jtheriault/code-copter-reporter-jasmine.git"
+  }
+}
