@@ -1,6 +1,6 @@
 {
   "name": "code-copter-reporter-jasmine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reporter plugin for code-copter v2 which integrates its reporting into the Jasmine BDD framework",
   "main": "src/index.js",
   "scripts": {
