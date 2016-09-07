@@ -24,6 +24,9 @@
     "istanbul": "^0.4.3",
     "nodemon": "^1.9.1"
   },
+  "peerDependencies": {
+    "code-copter": "^2.0.0"
+  },
   "author": "Joe Theriault <joseph@yankoismedia.com> (http://www.josephtheriault.com)",
   "bugs": {
     "url": "https://github.com/jtheriault/code-copter-reporter-jasmine/issues"
@@ -32,6 +35,7 @@
   "license": "ISC",
   "keywords": [
     "code-copter",
+    "code-copter-reporter",
     "jasmine",
     "style",
     "guide",
